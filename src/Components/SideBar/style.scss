@@ -1,0 +1,92 @@
+.sidebar-container{
+    width: 250px;
+	height: 100vh;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	z-index: 12;
+	padding: 0px 100px;
+	background-color: #fff;
+
+    .MuiSvgIcon-root{
+        color: #767676;
+        margin-right: 10px;
+    }
+}
+
+.sidebar{
+    // width: 100%;
+	height: auto;
+
+}
+
+.menu{
+    padding: 40px 0px 50px 0px;
+	width: 100%;
+	float: left;
+}
+
+.menu {
+    ul{
+        margin: 0px;
+	list-style-type: none;
+
+    li{
+        margin: 10px;
+	width: 100%;
+	float: left;
+    span{
+	color: #767676;
+	display: inline-block;
+	font-weight: 500;
+	font-family: "Montserrat";
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+    }
+    span:hover{
+        color: #000;
+	letter-spacing: 2px;
+    cursor: pointer;
+    }
+    }
+    }
+}
+.logo{
+	margin-left: 50px;
+    img{
+        max-width: 150px;
+    }
+}
+
+.copyright{
+	margin-left: 50px;
+	width: 100%;
+	float: left;
+p{
+	// font-size: 15px;
+	color: #999;
+	font-family: "Montserrat";
+	line-height: 25px;
+	font-style: italic;
+}
+a{
+	text-decoration: none;
+	color: #787878;
+	font-weight: 500;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+a:hover{
+	color: #000;
+	letter-spacing: 2px;
+}
+}
+
+

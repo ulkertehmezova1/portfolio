@@ -1,0 +1,66 @@
+// .tokyo_tm_about{
+// 	width: 100%;
+// 	height: auto;
+// 	clear: both;
+// 	float: left;
+// 	padding: 100px 0px 100px 0px;
+// }
+
+.about-section{
+    position: absolute;
+    top: 100px;
+	bottom: 0px;
+	left: 500px;
+	right: 0px;
+
+}
+
+.name-about{
+    font-weight: 700;
+    font-size: 22px;
+	font-family: "Montserrat";
+    letter-spacing: 0.5px;
+    margin-top: 35px;
+}
+
+.self-about{
+    font-style: italic;
+    font-family: "Montserrat" ;
+    color: #767676;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+.right {
+    ul{
+        list-style-type: none;
+        margin: 0;
+    }
+    span{
+        color: #000;
+        font-weight: 700;
+        font-family: "Montserrat";
+        letter-spacing: 0.5px;
+    }
+    p{
+        color:#767676;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+        font-family: "Montserrat";
+    }
+}
+
+.rm-btn{
+    padding: 19px 40px;
+    font-size: 15px;
+    line-height: 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat";
+    margin-top: 40px;
+}
