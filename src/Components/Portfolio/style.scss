@@ -42,3 +42,32 @@
     }
     
 }
+
+.box{
+    position: relative;
+}
+
+.tooltip{
+    position: fixed;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(237, 235, 235, 0.8);
+    text-transform: uppercase;
+    font-weight: 400!important;
+    font-size: 13px;
+    padding: 8px 21px;
+    width: 90px;
+    color:#222;
+    font-family: "Montserrat";
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.box:hover {
+    .tooltip{
+        opacity: 1;
+        visibility: visible;
+    }
+}

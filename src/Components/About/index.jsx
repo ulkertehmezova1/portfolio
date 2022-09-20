@@ -1,5 +1,6 @@
 import { Grid } from '@mui/material'
 import React from 'react'
+import AboutModal from '../Modal/AboutModal'
 import './style.css'
 
 const About = () => {
@@ -16,7 +17,8 @@ const About = () => {
 					<Grid container  columnSpacing={3}>
 						<Grid item xs={6}>
 						<p className='self-about'>Hello, I am a creative photographer based in New York and happy to travel all over Europe to capture your big day in candid and authentic photos. I will create a lasting memory of the people.</p>
-				<button className='rm-btn'>Read More</button>
+				{/* <button className='rm-btn'>Read More</button> */}
+				<AboutModal />
 						</Grid>
 						
 						<Grid item xs={6}>

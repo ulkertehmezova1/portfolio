@@ -1,0 +1,43 @@
+.news-btn {
+  background-color: rgba(0, 0, 0, 0.04);
+  text-transform: uppercase;
+  padding: 15px 20px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #333;
+  font-family: "Montserrat";
+  transition: 0.4s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.news-btn:hover {
+  background-color: #5ED4F3;
+}
+
+.style-news {
+  position: absolute;
+  width: 900px;
+  height: 400px;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 2px 16px black;
+  padding: 32px 30px;
+  margin: auto;
+  overflow-y: scroll;
+}
+
+.div-addnews {
+  position: absolute;
+  right: 13%;
+  top: 12%;
+}
+.div-addnews .MuiSvgIcon-root {
+  color: black;
+  font-size: 40px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

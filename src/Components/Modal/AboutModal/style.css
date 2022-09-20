@@ -1,0 +1,63 @@
+.style-about {
+  position: absolute;
+  width: 900px;
+  height: 400px;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 2px 16px black;
+  padding: 32px 30px;
+  margin: auto;
+  overflow-y: scroll;
+}
+
+.div-addabout {
+  position: absolute;
+  right: 13%;
+  top: 10%;
+}
+.div-addabout .MuiSvgIcon-root {
+  color: black;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.rm-btn {
+  padding: 19px 40px;
+  font-size: 15px;
+  line-height: 15px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-family: "Montserrat";
+  margin-top: 40px;
+}
+
+.soft-skilss .MuiTypography-root {
+  color: #333;
+  font-family: "Montserrat";
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  font-weight: 700 !important;
+}
+
+.lang-skilss .MuiTypography-root {
+  color: #333;
+  font-family: "Montserrat";
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  font-weight: 700 !important;
+}
+
+.skill-header {
+  font-weight: 700;
+  color: #000;
+  font-family: "Montserrat";
+  letter-spacing: 1.5px;
+}/*# sourceMappingURL=style.css.map */
