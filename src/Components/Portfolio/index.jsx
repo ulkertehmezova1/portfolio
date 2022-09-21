@@ -59,7 +59,7 @@ const tooltipRef=useRef(null);
       />   
     </Card>
     </a>
-    <div className='tooltip' ref={tooltipRef}><h3>Shopping Card</h3></div>
+    {/* <div className='tooltip' ref={tooltipRef}><h3>Shopping Card</h3></div> */}
     </div>
     </Grid>
 
@@ -76,7 +76,7 @@ const tooltipRef=useRef(null);
       />   
     </Card>
     </a>
-    <div className='tooltip' ref={tooltipRef}><h3>Todo App</h3></div>
+    {/* <div className='tooltip' ref={tooltipRef}><h3>Todo App</h3></div> */}
     </div>
     </Grid>
    
