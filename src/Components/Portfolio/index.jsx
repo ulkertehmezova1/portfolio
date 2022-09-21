@@ -10,12 +10,12 @@ const Portfolio = () => {
 const tooltipRef=useRef(null);
 
 
-  window.onmousemove=function(e){
-    var x=e.clientX;
-    var y=e.clientY;
-    tooltipRef.current.style.top=(y+20) + 'px'
-    tooltipRef.current.style.left=(x+20) + 'px'
-    }
+  // window.onmousemove=function(e){
+  //   var x=e.clientX;
+  //   var y=e.clientY;
+  //   tooltipRef.current.style.top=(y+20) + 'px'
+  //   tooltipRef.current.style.left=(x+20) + 'px'
+  //   }
 
 
   return (
