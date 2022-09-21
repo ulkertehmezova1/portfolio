@@ -1,5 +1,5 @@
 import { Grid } from '@mui/material'
-import React from 'react'
+import React, { useState } from 'react'
 import './style.css'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -7,7 +7,9 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import NewsModal from '../Modal/NewsModal';
 
+
 const News = () => {
+  // const [open, setOpen]=useState(false);
   return (
     <div className='news-container'>
     <Grid container rowGap={3}>

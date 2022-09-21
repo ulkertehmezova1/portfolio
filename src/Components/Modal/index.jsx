@@ -6,14 +6,12 @@ import './style.css'
 
 function BasicModal(props) {
 
-  const [open, setOpen] = React.useState(false);
-  const handleClose = () => setOpen(false);
 
   return (
 
        <Modal
-    open={props.open || open}
-    onClose={handleClose}
+    open={props.open}
+    onClose={props.handleClose}
     >
       {props.children}
     </Modal>

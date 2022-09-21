@@ -15,7 +15,7 @@ const AboutModal = () => {
   return (
   <>
  	<button className='rm-btn' onClick={handleOpen}>Read More</button>
-  <BasicModal open={open}>
+  <BasicModal open={open} handleClose={handleClose}>
   <div className='container' sx={{display:'flex'}}>
   <div className="div-addabout">
           <button onClick={handleClose} style={{all:'unset'}}><HighlightOffIcon /></button>
