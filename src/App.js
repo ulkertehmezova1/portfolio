@@ -3,6 +3,7 @@ import Portfolio from "./Components/Portfolio";
 import News from "./Components/News";
 import './App.css'
 import Home from "./Components/Home";
+import Contact from "./Components/Contact";
 import {
   Route,
   Routes,
@@ -18,7 +19,7 @@ function App() {
   <Route path="/about" element={<About />} />
   <Route path="/portfolio" element={<Portfolio />} />
   <Route path="/news" element={<News />} />
-  {/* <Route path="/contact" element={<Contact />} /> */}
+  <Route path="/contact" element={<Contact />} />
 </Routes>
     </div>
   );

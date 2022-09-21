@@ -3,6 +3,7 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import {Grid } from '@mui/material'
 import './style.css'
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
 const tooltipRef=useRef(null);
@@ -29,13 +30,16 @@ const tooltipRef=useRef(null);
      
   <Grid item xs={6}> 
   <div className='box'>
-   <Card sx={{ maxWidth: '425px', height:"416px" }}>
+   <a href='https://imaginative-capybara-368049.netlify.app/' target={"_blank"}>
+    <Card sx={{ maxWidth: '425px', height:"416px" }}>
       <CardMedia
         component="img"
         height="416"
         image={require("./img/advice-generator.png")}
       />   
     </Card>
+    </a>
+  
     <div className='tooltip' ref={tooltipRef}><h3>Advice Generator</h3></div>
     </div>
     </Grid>
@@ -43,6 +47,7 @@ const tooltipRef=useRef(null);
           
 <Grid item xs={6}>  
 <div className='box'>
+  <a href="https://dulcet-figolla-214440.netlify.app/" target={'_blank'}>
 <Card sx={{ maxWidth: '425px', height:"416px" }}>
       <CardMedia
         component="img"
@@ -51,6 +56,7 @@ const tooltipRef=useRef(null);
         image={require("./img/ecommerce-react-min.jpg")}
       />   
     </Card>
+    </a>
     <div className='tooltip' ref={tooltipRef}><h3>Shopping Card</h3></div>
     </div>
     </Grid>
@@ -58,6 +64,7 @@ const tooltipRef=useRef(null);
 
     <Grid item xs={6} marginBottom="30px">
       <div className='box'>
+        <a href='https://6329dba83281f94c23cef87e--heartfelt-chimera-526663.netlify.app/' target={'_blank'}>
     <Card sx={{ maxWidth: '420px', height:"416px" }}>
       <CardMedia
         component="img"
@@ -66,19 +73,25 @@ const tooltipRef=useRef(null);
         image={require("./img/todo.png")}
       />   
     </Card>
+    </a>
     <div className='tooltip' ref={tooltipRef}><h3>Todo App</h3></div>
     </div>
     </Grid>
    
           
-          <Grid item xs={6}>   <Card sx={{ maxWidth: '420px', height:"416px" }}>
+          <Grid item xs={6}>   
+          <a href="http://10.30.1.211:30000/thirdScreen" target={'_blank'}>
+          <Card sx={{ maxWidth: '420px', height:"416px" }}>
+          
       <CardMedia
         component="img"
         alt="green iguana"
         height="416"
-        image={require("./img/weatherapp3.jpg")}
+        image={require("./img/logo.jpg")}
       />   
-    </Card></Grid>
+    </Card>
+    </a>
+    </Grid>
     
            
     </Grid>

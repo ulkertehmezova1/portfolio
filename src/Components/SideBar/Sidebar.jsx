@@ -35,7 +35,7 @@ const Sidebar = () => {
   </li>
   <li>
     <MailOutlineIcon />
-   <span>Contact</span>
+   <span><Link to='/contact'  style={{all:'unset'}}>Contact</Link></span>
    </li>
 </ul>
 </div>
@@ -43,7 +43,7 @@ const Sidebar = () => {
 					<p>&copy; 2022 Ulker
              <br />
            Created by 
-           <a href="#">Ulker</a>
+           <a href="#">{" "+ 'Ulker'}</a>
             </p>
 				</div>
 </div>

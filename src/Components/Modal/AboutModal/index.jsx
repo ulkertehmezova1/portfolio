@@ -22,9 +22,9 @@ const AboutModal = () => {
           </div>
     <Box className="style-about">
 <Grid container justifyContent={'space-between'}>
-  <Grid item >
+  <Grid item  xs={4}>
           <div className="soft-skilss">
-            <h3 className='skill-header'>Software Skills</h3>
+            <h3 className='skill-header'>Hard Skills</h3>
           <Typography component="legend">HTML</Typography>
       <Rating name="read-only" value={5} readOnly />
       <Typography component="legend">CSS</Typography>
@@ -39,7 +39,24 @@ const AboutModal = () => {
       <Rating name="read-only" value={4} readOnly />
 </div>
 </Grid>
-<Grid item >
+
+<Grid item xs={4} >
+          <div className="soft-skilss">
+            <h3 className='skill-header'>Soft Skills</h3>
+          <Typography component="legend">Good Comumunication</Typography>
+      <Rating name="read-only" value={5} readOnly />
+      <Typography component="legend">TeamWork</Typography>
+      <Rating name="read-only" value={5} readOnly />
+      <Typography component="legend">Creativity</Typography>
+      <Rating name="read-only" value={4} readOnly />
+      <Typography component="legend">Problem Solving</Typography>
+      <Rating name="read-only" value={4} readOnly />
+      <Typography component="legend">Willingness to learn</Typography>
+      <Rating name="read-only" value={4} readOnly />
+</div>
+</Grid>
+
+<Grid item xs={4} >
 <div className='lang-skilss'>
   <h3 className='skill-header'>Language Skills</h3>
 <Typography component="legend">English</Typography>
