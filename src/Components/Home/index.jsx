@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
                 <div className="details">
                     <h3 className="name">Ulkar Tahmazova</h3>
-                    <p className="job">Creative Photographer based in New York and happy to travel all over Europe to capture photos.</p>
+                    <p className="job"> Junior Front-End developer based in Baku and happy to code everything.</p>
                     <div className="social">
                         <ul>
                             <li><a href="https://www.facebook.com/"><FacebookIcon /></a></li>

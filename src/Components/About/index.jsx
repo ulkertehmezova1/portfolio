@@ -16,7 +16,7 @@ const About = () => {
 				<Grid item xs={12}>
 					<Grid container  columnSpacing={3}>
 						<Grid item xs={6}>
-						<p className='self-about'>Hello, I am a creative photographer based in New York and happy to travel all over Europe to capture your big day in candid and authentic photos. I will create a lasting memory of the people.</p>
+						<p className='self-about'>Hello, my name is Ulkar. I am a junior front-end developer based in Baku and happy to code everything.</p>
 				{/* <button className='rm-btn'>Read More</button> */}
 				<AboutModal />
 						</Grid>
@@ -32,14 +32,14 @@ const About = () => {
 					</li>
 					<li>
 						<p>
-							<span>{"Birthday:" + " "}</span>
+							<span>{"Age:" + " "}</span>
 							21
 						</p>
 					</li>
 					<li>
 						<p>
 							<span>{"Adress:" + " "}</span>
-							Ave 11, New York, USA
+							Baku, Azerbaijan
 						</p>
 					</li>
 					<li>

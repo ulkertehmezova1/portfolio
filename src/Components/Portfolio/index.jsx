@@ -10,12 +10,12 @@ const Portfolio = () => {
 const tooltipRef=useRef(null);
 
 
-  // window.onmousemove=function(e){
-  //   var x=e.target.clientX;
-  //   var y=e.target.clientY;
-  //   tooltipRef.current.style.top=(y+20) + 'px'
-  //   tooltipRef.current.style.left=(x+20) + 'px'
-  //   }
+  window.onmousemove=function(e){
+    var x=e.clientX;
+    var y=e.clientY;
+    tooltipRef.current.style.top=(y+20) + 'px'
+    tooltipRef.current.style.left=(x+20) + 'px'
+    }
 
 
   return (
@@ -82,6 +82,7 @@ const tooltipRef=useRef(null);
    
           
           <Grid item xs={6}>   
+          <div className=''></div>
           <a href="http://10.30.1.211:30000/thirdScreen" target={'_blank'}>
           <Card sx={{ maxWidth: '420px', height:"416px" }}>
           
