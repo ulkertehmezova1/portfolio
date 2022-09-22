@@ -21,8 +21,8 @@ const AboutModal = () => {
           <button onClick={handleClose} style={{all:'unset'}}><HighlightOffIcon /></button>
           </div>
     <Box className="style-about">
-<Grid container justifyContent={'space-between'}>
-  <Grid item  xs={4}>
+<Grid container justifyContent={'space-between'} alignContent={'center'}>
+  <Grid item md={4} xs={12}>
           <div className="soft-skilss">
             <h3 className='skill-header'>Hard Skills</h3>
           <Typography component="legend">HTML</Typography>
@@ -40,7 +40,7 @@ const AboutModal = () => {
 </div>
 </Grid>
 
-<Grid item xs={4} >
+<Grid item xs={12} md={4} >
           <div className="soft-skilss">
             <h3 className='skill-header'>Soft Skills</h3>
           <Typography component="legend">Good Comumunication</Typography>
@@ -56,7 +56,7 @@ const AboutModal = () => {
 </div>
 </Grid>
 
-<Grid item xs={4} >
+<Grid item xs={12} md={4}>
 <div className='lang-skilss'>
   <h3 className='skill-header'>Language Skills</h3>
 <Typography component="legend">English</Typography>

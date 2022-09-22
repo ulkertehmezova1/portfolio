@@ -64,4 +64,14 @@ iframe {
   color: #333;
   font-family: "Montserrat";
   border: none;
+}
+
+@media (max-width: 768px) {
+  .fields {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

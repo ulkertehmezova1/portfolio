@@ -64,4 +64,14 @@
 .box:hover .tooltip {
   opacity: 1;
   visibility: visible;
+}
+
+@media (max-width: 768px) {
+  .container-port {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

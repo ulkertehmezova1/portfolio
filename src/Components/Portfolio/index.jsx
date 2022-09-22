@@ -30,7 +30,7 @@ const tooltipRef=useRef(null);
         </Grid>
       
      
-  <Grid item xs={6}> 
+  <Grid item xs={12} md={6}> 
   <div className='box'>
    <a href='https://imaginative-capybara-368049.netlify.app/' target={"_blank"}>
     <Card sx={{ maxWidth: '425px', height:"416px" }}>
@@ -47,7 +47,7 @@ const tooltipRef=useRef(null);
     </Grid>
     
           
-<Grid item xs={6}>  
+<Grid item xs={12} md={6}>  
 <div className='box'>
   <a href="https://dulcet-figolla-214440.netlify.app/" target={'_blank'}>
 <Card sx={{ maxWidth: '425px', height:"416px" }}>
@@ -64,7 +64,7 @@ const tooltipRef=useRef(null);
     </Grid>
 
 
-    <Grid item xs={6} marginBottom="30px">
+    <Grid item xs={12} md={6} marginBottom="30px">
       <div className='box'>
         <a href='https://6329dba83281f94c23cef87e--heartfelt-chimera-526663.netlify.app/' target={'_blank'}>
     <Card sx={{ maxWidth: '420px', height:"416px" }}>
@@ -81,7 +81,7 @@ const tooltipRef=useRef(null);
     </Grid>
    
           
-          <Grid item xs={6}>   
+          <Grid item xs={12} md={6}>   
           <div className=''></div>
           <a href="http://10.30.1.211:30000/thirdScreen" target={'_blank'}>
           <Card sx={{ maxWidth: '420px', height:"416px" }}>

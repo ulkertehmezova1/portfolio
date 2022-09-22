@@ -4,11 +4,10 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './style.css'
+import { Grid } from '@mui/material';
 
 const Home = () => {
   return (
-    // <div className="rightpart">
-			// <div className="rightpart_in">
     <div id="home" className="tokyo_tm_section animated">
     <div className="container">
         <div className="tokyo_tm_home">
@@ -36,8 +35,7 @@ const Home = () => {
         </div>
     </div>
 </div>
-// </div>
-// </div>
+
 
   )
 }

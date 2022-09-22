@@ -65,3 +65,10 @@ margin-top: 40px;
     font-family: "Montserrat";
     letter-spacing: 1.5px;
 }
+
+@media (max-width:768px){
+    .style-about{
+        width: 400px!important;
+        height: 450px!important;
+    }
+}

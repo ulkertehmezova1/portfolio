@@ -1,19 +1,4 @@
-.rightpart{
-    width: 100%;
-	min-height: 100vh;
-	float: left;
-	position: relative;
-	background-color: #f8f8f8;
-	padding-left: 450px;
-}
-.rightpart-in{
-    position: relative;
-	width: 100%;
-	float: left;
-	clear: both;
-	border-left: 1px solid #ebebeb;
-	min-height: 100vh;
-}
+
 .tokyo_tm_section{
 	position: absolute;
     top: 0px;
@@ -51,6 +36,7 @@
 
     .home_content{
         display: flex;
+        flex-direction: row;
         align-items: center;
         .details{
             margin-left: 80px;
@@ -143,3 +129,14 @@
 }
 
 
+@media (max-width:768px){
+    .tokyo_tm_section{
+        left: 0px!important;
+        padding: 20px!important;
+    }
+    .home_content{
+        flex-direction: column!important;
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+}

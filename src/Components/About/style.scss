@@ -64,3 +64,15 @@
     font-family: "Montserrat";
     margin-top: 40px;
 }
+
+@media (max-width:768px){
+.about-section{
+    top: 0px!important;
+    bottom: 0px;
+    left:0px!important;
+    right: 0px;
+    padding: 20px;
+
+}
+
+}

@@ -15,13 +15,13 @@ const About = () => {
 				</Grid>
 				<Grid item xs={12}>
 					<Grid container  columnSpacing={3}>
-						<Grid item xs={6}>
+						<Grid item xs={12} md={6} lg={6}>
 						<p className='self-about'>Hello, my name is Ulkar. I am a junior front-end developer based in Baku and happy to code everything.</p>
 				{/* <button className='rm-btn'>Read More</button> */}
 				<AboutModal />
 						</Grid>
 						
-						<Grid item xs={6}>
+						<Grid item xs={12} md={6} lg={6}>
 	<div className='right'>
 				<ul>
 					<li>

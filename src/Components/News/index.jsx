@@ -21,7 +21,7 @@ const News = () => {
         </Grid>
 
         
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
         <Card sx={{ maxWidth: 425, height:"416px"}}>
       <CardMedia
         component="img"
@@ -53,7 +53,7 @@ React-də açarlardan istifadə edərək elementlərin dəyişildiyini, əlavə 
     </Card>
         </Grid>
 
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
         <Card sx={{ maxWidth: 425, height:"416px"}}>
       <CardMedia
         component="img"
@@ -92,7 +92,7 @@ Cavab virtual DOM -un daha sürətli və səmərəli olmasıdır, bunun səbəbi
       </CardActions>
     </Card>
         </Grid>
-<Grid item xs={6}>
+<Grid item xs={12} md={6}>
 <Card sx={{ maxWidth: 425, height:"416px"}}>
       <CardMedia
         component="img"
@@ -127,7 +127,7 @@ Deyə bilərik ki, UX əslində UI dizaynını özündə ehtiva edir. Axtarış 
       </CardActions>
     </Card>
 </Grid>
-<Grid item xs={6}>
+<Grid item xs={12} md={6}>
 <Card sx={{ maxWidth: 425, height:"416px"}}>
       <CardMedia
         component="img"
