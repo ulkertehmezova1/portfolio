@@ -56,11 +56,11 @@ const Sidebar = () => {
 </div>
 
 <div className='footer-navbar'>
-<Link to='/'><a>Home</a></Link>
-  <Link to='/about'><a>About</a></Link>
-  <Link to='/portfolio'><a>Portfolio</a></Link>
- <Link to='/news'><a>News</a></Link> 
- <Link to='/contact'><a>Contact</a></Link>
+<a><Link to="/" style={{all:'unset'}}>Home</Link></a>
+ <a><Link to ="/about" style={{all:'unset'}}>About</Link></a>
+  <a><Link to="/portfolio" style={{all:'unset'}}>Portfolio</Link></a>
+ <a><Link to="/news" style={{all:'unset'}}>News</Link></a>
+ <a>Contact</a>
 </div>
 </>
   )
