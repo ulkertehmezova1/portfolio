@@ -11,7 +11,7 @@
     box-shadow: 0px 2px 16px black;
     padding: 32px 30px;
     margin: auto; 
-    overflow-y: scroll;
+    overflow: scroll;
 }
 
 .div-addabout{
@@ -68,7 +68,14 @@ margin-top: 40px;
 
 @media (max-width:768px){
     .style-about{
-        width: 400px!important;
+        width: 450px!important;
+        height: 450px!important;
+    }
+}
+@media (max-width:1000px){
+
+    .style-about{
+        width: 450px!important;
         height: 450px!important;
     }
 }

@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './style.css'
-import { Grid } from '@mui/material';
+
 
 const Home = () => {
   return (

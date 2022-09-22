@@ -1,6 +1,7 @@
 .sidebar-container {
-  width: 250px;
+  width: 240px;
   height: 100vh;
+  background-color: #fff;
   position: fixed;
   display: flex;
   align-items: center;
@@ -19,6 +20,8 @@
   align-items: center;
   background-color: #333;
   position: fixed;
+  padding-top: 15px;
+  padding-bottom: 15px;
   bottom: 0;
   width: 100%;
   z-index: 12;
@@ -31,7 +34,6 @@
   color: #767676;
   text-align: center;
   font-family: "Montserrat";
-  padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
   transition: all 0.3s ease;
@@ -117,6 +119,17 @@
 }
 
 @media (max-width: 768px) {
+  .sidebar-container {
+    display: none !important;
+  }
+  .footer-navbar {
+    display: flex !important;
+  }
+  .top-navbar {
+    display: flex !important;
+  }
+}
+@media (max-width: 1000px) {
   .sidebar-container {
     display: none !important;
   }

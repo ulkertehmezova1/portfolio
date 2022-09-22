@@ -39,7 +39,7 @@ const News = () => {
                 <h3 className='blog-header'>"Key" nədir və onu element massivlərində istifadə etməyin faydası nədir?</h3>
                 </Grid>
                 <Grid item xs={12} textAlign="center">
-            <img src={require('../Modal/NewsModal/img/lists.jpg')} style={{width:'700px'}}/>
+            <img src={require('../Modal/NewsModal/img/lists.jpg')} className='img-news-mod' />
                 </Grid>
                
                 <Grid item xs={12}>
@@ -71,7 +71,7 @@ React-də açarlardan istifadə edərək elementlərin dəyişildiyini, əlavə 
                 <h3 className='blog-header'>React-da Virtual DOM nədir? Real DOM vs Virtual DOM</h3>
                 </Grid>
                 <Grid item xs={12} textAlign="center">
-            <img src={require('../Modal/NewsModal/img/tree.png')} style={{width:'700px'}}/>
+            <img src={require('../Modal/NewsModal/img/tree.png')} className='img-news-mod'/>
                 </Grid>
                
                 <Grid item xs={12}>
@@ -110,7 +110,7 @@ Cavab virtual DOM -un daha sürətli və səmərəli olmasıdır, bunun səbəbi
                 <h3 className='blog-header'>UX/UI dizayn: Dizayn düşüncəsi(Design Thinking)</h3>
                 </Grid>
                 <Grid item xs={12} textAlign="center">
-            <img src={require('../Modal/NewsModal/img/dizayn.jpg')} style={{width:'700px'}}/>
+            <img src={require('../Modal/NewsModal/img/dizayn.jpg')} className='img-news-mod'/>
                 </Grid>
                
                 <Grid item xs={12}>
@@ -145,7 +145,7 @@ Deyə bilərik ki, UX əslində UI dizaynını özündə ehtiva edir. Axtarış 
                 <h3 className='blog-header'>Öyrənmə alışqanlığı və bunun proqramlaşdırmada rolu</h3>
                 </Grid>
                 <Grid item xs={12} textAlign="center">
-            <img src={require('../Modal/NewsModal/img/learn.jpeg')} style={{width:'700px'}}/>
+            <img src={require('../Modal/NewsModal/img/learn.jpeg')} className='img-news-mod'/>
                 </Grid>
                
                 <Grid item xs={12}>

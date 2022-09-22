@@ -27,7 +27,7 @@
     box-shadow: 0px 2px 16px black;
     padding: 32px 30px;
     margin: auto; 
-    overflow-y: scroll;
+    overflow: scroll;
 }
 .div-addnews{
     position: absolute;
@@ -38,4 +38,19 @@
         font-size: 40px;
         cursor: pointer;
         }
+}
+
+@media (max-width:768px){
+    .style-news{
+        width:450px!important;
+        height: 450px!important;
+    }
+}
+
+@media (max-width:1000px){
+
+    .style-news{
+        width:450px!important;
+        height: 450px!important;
+    }
 }

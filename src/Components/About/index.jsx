@@ -8,7 +8,7 @@ const About = () => {
                <div className='about-section'>
 				<Grid container >
 			    <Grid item xs={12}>
-				<img src={require("./about.png")} alt="" width="820px"/>
+				<img src={require("./about.png")} alt=""  className='img-about'/>
 				</Grid>
 				<Grid item xs={12}>
 				<h3 className='name-about'>Ulkar Tahmazova & Developer</h3>
@@ -17,7 +17,6 @@ const About = () => {
 					<Grid container  columnSpacing={3}>
 						<Grid item xs={12} md={6} lg={6}>
 						<p className='self-about'>Hello, my name is Ulkar. I am a junior front-end developer based in Baku and happy to code everything.</p>
-				{/* <button className='rm-btn'>Read More</button> */}
 				<AboutModal />
 						</Grid>
 						

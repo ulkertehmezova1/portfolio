@@ -60,7 +60,7 @@ const Sidebar = () => {
  <a><Link to ="/about" style={{all:'unset'}}>About</Link></a>
   <a><Link to="/portfolio" style={{all:'unset'}}>Portfolio</Link></a>
  <a><Link to="/news" style={{all:'unset'}}>News</Link></a>
- <a>Contact</a>
+ <a><Link to="/contact" style={{all:'unset'}}>Contact</Link></a>
 </div>
 </>
   )

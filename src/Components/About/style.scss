@@ -28,8 +28,9 @@
     font-family: "Montserrat" ;
     color: #767676;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 20px;
     letter-spacing: 0.5px;
+    
 }
 .right {
     ul{
@@ -64,6 +65,9 @@
     font-family: "Montserrat";
     margin-top: 40px;
 }
+.img-about{
+    width: 820px;
+}
 
 @media (max-width:768px){
 .about-section{
@@ -72,7 +76,36 @@
     left:0px!important;
     right: 0px;
     padding: 20px;
+    z-index: -1;
 
 }
+.img-about{
+    width: 300px!important;
+    margin-top: 50px;
+}
+.self-about{
+    width: 300px;
+}
+
+}
+
+@media (max-width:1000px){
+
+    .about-section{
+        top: 0px!important;
+        bottom: 0px;
+        left:0px!important;
+        right: 0px;
+        padding: 20px;
+        z-index: -1;
+    
+    }
+    .img-about{
+        width: 700px!important;
+        margin-top: 50px;
+    }
+    .self-about{
+        width: 400px;
+    }
 
 }

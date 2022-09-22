@@ -72,6 +72,10 @@ p {
   letter-spacing: 0.5;
 }
 
+.img-news-mod {
+  width: 700px;
+}
+
 @media (max-width: 768px) {
   .news-container {
     top: 0px;
@@ -79,5 +83,20 @@ p {
     left: 0px;
     right: 0px;
     padding: 20px;
+  }
+  .img-news-mod {
+    width: 300px !important;
+  }
+}
+@media (max-width: 1000px) {
+  .news-container {
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px;
+  }
+  .img-news-mod {
+    width: 400px !important;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -74,4 +74,13 @@ iframe {
     right: 0;
     padding: 20px;
   }
+}
+@media (max-width: 1000px) {
+  .fields {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
