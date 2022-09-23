@@ -1,5 +1,5 @@
 .sidebar-container{
-    width: 240px;
+    width: 200px;
 	height: 100vh;
 	background-color: #fff;
 	position: fixed;
@@ -26,6 +26,16 @@
   width: 100%;
   z-index: 12;
   background-color: #dedede;
+}
+.menu, .footer-navbar{
+	.active{
+		color:black;
+	letter-spacing: 1.7px;
+	font-weight: 500;
+	}
+}
+.nav-bar-link{
+	all: unset;
 }
 
 .footer-navbar a{
@@ -90,6 +100,7 @@
 	color: #767676;
 	display: inline-block;
 	font-weight: 500;
+	font-size: 15px;
 	font-family: "Montserrat";
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -99,7 +110,7 @@
     }
     span:hover{
         color: #000;
-	letter-spacing: 2px;
+	letter-spacing: 1.7px;
     cursor: pointer;
     }
     }
@@ -136,7 +147,7 @@ a{
 }
 a:hover{
 	color: #000;
-	letter-spacing: 2px;
+	letter-spacing: 1.7px;
 }
 }
 

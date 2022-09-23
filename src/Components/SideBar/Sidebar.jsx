@@ -5,7 +5,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import FeedIcon from '@mui/icons-material/Feed';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { bottomnav } from '../../data/data';
 
 
@@ -26,23 +26,25 @@ const Sidebar = () => {
 <ul>
   <li>
     <HomeIcon />
-    <span><Link to="/" style={{all:'unset'}}>Home</Link></span>
+    <span><NavLink end activeClassName='active' className="nav-bar-link" to="/">
+   Home
+</NavLink></span>
   </li>
   <li>
     <PersonIcon />
-    <span><Link to="/about" style={{all:'unset'}}>About</Link></span>
+    <span><NavLink to="/about" className="nav-bar-link">About</NavLink></span>
   </li>
   <li>
     <BusinessCenterIcon />
-    <span><Link to="/portfolio" style={{all:'unset'}}>Portfolio</Link></span>
+    <span><NavLink to="/portfolio" className="nav-bar-link">Portfolio</NavLink></span>
     </li>
   <li>
     <FeedIcon />
-  <span><Link to="/news" style={{all:'unset'}}>News</Link></span>
+  <span><NavLink to="/news" className="nav-bar-link">News</NavLink></span>
   </li>
   <li>
     <MailOutlineIcon />
-   <span><Link to='/contact'  style={{all:'unset'}}>Contact</Link></span>
+   <span><NavLink to='/contact' className="nav-bar-link">Contact</NavLink></span>
    </li>
 </ul>
 </div>
@@ -59,7 +61,7 @@ const Sidebar = () => {
 <div className='footer-navbar'>
 {
   bottomnav.map((nav)=>(
-<a><Link to={`${nav.route}`}style={{all:'unset'}}>{nav.section}</Link></a>
+<a><NavLink end to={`${nav.route}`} className='nav-bar-link'>{nav.section}</NavLink></a>
   ))
 }
 </div>

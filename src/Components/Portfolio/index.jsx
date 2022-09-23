@@ -36,12 +36,13 @@ const tooltipRef=useRef(null);
         <h3 className='port-name'>Creative Portfolio</h3>
         </Grid>
       
+
    {
     data.map((port)=>(
       <Grid item sm={12} md={6} lg={6} > 
       <div className='box'>
        <a href={port.path} target={"_blank"}>
-        <Card sx={{ maxWidth: '425px', height:"416px" }}>
+        <Card sx={{ maxWidth: '396px', height:"416px" }}>
           <CardMedia
             component="img"
             height="416"

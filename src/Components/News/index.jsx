@@ -23,7 +23,7 @@ const News = () => {
         {
     news.map((net)=>(
       <Grid item xs={12} md={6}>
-      <Card sx={{ maxWidth: 425, height:"416px"}}>
+      <Card sx={{ maxWidth: '400px', height:"416px"}}>
     <CardMedia
       component="img"
       height="200"

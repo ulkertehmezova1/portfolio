@@ -18,7 +18,7 @@ const AboutModal = () => {
   <BasicModal open={open} handleClose={handleClose}>
   <div className='container' sx={{display:'flex'}}>
   <div className="div-addabout">
-          <button onClick={handleClose} style={{all:'unset'}}><HighlightOffIcon /></button>
+          {/* <button onClick={handleClose} style={{all:'unset'}}><HighlightOffIcon /></button> */}
           </div>
     <Box className="style-about">
 <Grid container justifyContent={'space-between'} alignContent={'center'}>

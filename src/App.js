@@ -15,11 +15,11 @@ function App() {
     <div className="App">
       <Sidebar />
 <Routes>
-  <Route path="/" element={<Home />} />
-  <Route path="/about" element={<About />} />
-  <Route path="/portfolio" element={<Portfolio />} />
-  <Route path="/news" element={<News />} />
-  <Route path="/contact" element={<Contact />} />
+  <Route  path="/"  element={<Home />} />
+  <Route  path="/about" element={<About />} />
+  <Route  path="/portfolio" element={<Portfolio />} />
+  <Route  path="/news" element={<News />} />
+  <Route  path="/contact" element={<Contact />} />
 </Routes>
     </div>
   );

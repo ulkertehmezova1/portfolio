@@ -18,7 +18,7 @@ const NewsModal = ({children}) => {
 <BasicModal open={open} handleClose={handleClose}>
 <div className='container' sx={{display:'flex'}}>
   <div className="div-addnews">
-          <button onClick={handleClose} style={{all:'unset'}}><HighlightOffIcon /></button>
+          {/* <button onClick={handleClose} style={{all:'unset'}}><HighlightOffIcon /></button> */}
           </div>
           <Box className='style-news'>
            {children}

@@ -2,7 +2,7 @@
     position: absolute;
     top: 100px;
 	bottom: 0px;
-	left: 500px;
+	left: 430px;
 	right: 0px;
 
     input{
@@ -43,7 +43,7 @@
         cursor: pointer;
         color: #fff;
         background-color: #000;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         font-family: "Montserrat";
     }
 }
@@ -77,6 +77,10 @@ margin-bottom: 40px;
         left:0;
         right: 0;
         padding: 20px;
+    }
+
+    .btn-form{
+        margin-bottom: 70px!important;
     }
 }
 
