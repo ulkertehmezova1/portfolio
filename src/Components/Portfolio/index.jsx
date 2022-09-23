@@ -9,12 +9,12 @@ const Portfolio = () => {
 const tooltipRef=useRef(null);
  
 // const [state, setState]=useState();
-  // const onMouve=(e)=>{
-  //   var x=e.clientX;
-  //   var y=e.clientY;
-  //   tooltipRef.current.style.top=(y+20) + 'px'
-  //   tooltipRef.current.style.left=(x+20) + 'px'
-  //   }
+  const onMouve=(e)=>{
+    var x=e.clientX;
+    var y=e.clientY;
+    tooltipRef.current.style.top=(y+20) + 'px'
+    tooltipRef.current.style.left=(x+20) + 'px'
+    }
  
   // const onMouseMove=(e)=>{
   //   setState(tooltipRef.current)
@@ -42,7 +42,7 @@ const tooltipRef=useRef(null);
       <Grid item sm={12} md={6} lg={6} > 
       <div className='box'>
        <a href={port.path} target={"_blank"}>
-        <Card sx={{ maxWidth: '396px', height:"416px" }}>
+        <Card sx={{ maxWidth: '396px', height:"416px" }} onMouseMove={onMouve}>
           <CardMedia
             component="img"
             height="416"
