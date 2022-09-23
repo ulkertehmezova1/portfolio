@@ -6,6 +6,7 @@ import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import FeedIcon from '@mui/icons-material/Feed';
 import { Link } from 'react-router-dom';
+import { bottomnav } from '../../data/data';
 
 
 const Sidebar = () => {
@@ -56,11 +57,11 @@ const Sidebar = () => {
 </div>
 
 <div className='footer-navbar'>
-<a><Link to="/" style={{all:'unset'}}>Home</Link></a>
- <a><Link to ="/about" style={{all:'unset'}}>About</Link></a>
-  <a><Link to="/portfolio" style={{all:'unset'}}>Portfolio</Link></a>
- <a><Link to="/news" style={{all:'unset'}}>News</Link></a>
- <a><Link to="/contact" style={{all:'unset'}}>Contact</Link></a>
+{
+  bottomnav.map((nav)=>(
+<a><Link to={`${nav.route}`}style={{all:'unset'}}>{nav.section}</Link></a>
+  ))
+}
 </div>
 </>
   )

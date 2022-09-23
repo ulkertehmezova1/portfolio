@@ -44,13 +44,13 @@
 
 @media (max-width: 768px) {
   .style-news {
-    width: 450px !important;
+    width: 400px !important;
     height: 450px !important;
   }
 }
 @media (max-width: 1000px) {
   .style-news {
-    width: 450px !important;
+    width: 600px;
     height: 450px !important;
   }
 }/*# sourceMappingURL=style.css.map */

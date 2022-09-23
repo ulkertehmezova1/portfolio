@@ -2,6 +2,7 @@ import { Grid } from '@mui/material'
 import React from 'react'
 import AboutModal from '../Modal/AboutModal'
 import './style.css'
+import { about } from '../../data/data'
 
 const About = () => {
   return (
@@ -23,48 +24,18 @@ const About = () => {
 						<Grid item xs={12} md={6} lg={6}>
 	<div className='right'>
 				<ul>
-					<li>
+
+				{
+					about.map((ab)=>(
+						<li>
 						<p>
-							<span>{"BirthDay:" + " "}</span>
-							13.02.2001
+							<span>{ab.name}</span>
+							{ab.value}
 						</p>
 					</li>
-					<li>
-						<p>
-							<span>{"Age:" + " "}</span>
-							21
-						</p>
-					</li>
-					<li>
-						<p>
-							<span>{"Adress:" + " "}</span>
-							Baku, Azerbaijan
-						</p>
-					</li>
-					<li>
-						<p>
-							<span>{"Email:" + " "}</span>
-							ulkrthmzova@gmail.com
-						</p>
-					</li>
-					<li>
-						<p>
-							<span>{"Phone: "+ " "}</span>
-							055 417 10 57
-						</p>
-					</li>
-					<li>
-						<p>
-							<span>{"Study:" + " "}</span>
-							Baku State University
-						</p>
-					</li>
-					<li>
-						<p>
-							<span>{"Freelance: " + " "}</span>
-							Available
-						</p>
-					</li>
+					))
+				}
+
 				</ul>
 				</div></Grid>
 					</Grid>
