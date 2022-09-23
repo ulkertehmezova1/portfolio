@@ -1,22 +1,29 @@
-import React, { useCallback, useEffect, useRef } from 'react'
+import React, { useCallback, useEffect, useRef, useState } from 'react'
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import {Grid } from '@mui/material'
+import { data } from '../../data/data';
 import './style.css'
-import { Link } from 'react-router-dom';
-import { WindowOutlined } from '@mui/icons-material';
 
 const Portfolio = () => {
 const tooltipRef=useRef(null);
-
-
-  // window.onmousemove=function(e){
+ 
+// const [state, setState]=useState();
+  // const onMouve=(e)=>{
   //   var x=e.clientX;
   //   var y=e.clientY;
   //   tooltipRef.current.style.top=(y+20) + 'px'
   //   tooltipRef.current.style.left=(x+20) + 'px'
   //   }
-
+ 
+  // const onMouseMove=(e)=>{
+  //   setState(tooltipRef.current)
+  //   let x=e.clientX;
+  //   let y=e.clientY;
+  //   state.style.top=(y+20) + 'px';
+  //   state.style.left=(x +20)+ 'px';
+  //   console.log(state)
+  // }
 
   return (
     <div className='container-port'>
@@ -29,76 +36,26 @@ const tooltipRef=useRef(null);
         <h3 className='port-name'>Creative Portfolio</h3>
         </Grid>
       
-     
-  <Grid item sm={12} md={6} lg={6}> 
-  <div className='box'>
-   <a href='https://imaginative-capybara-368049.netlify.app/' target={"_blank"}>
-    <Card sx={{ maxWidth: '425px', height:"416px" }}>
-      <CardMedia
-        component="img"
-        height="416"
-        image={require("./img/advice-generator.png")}
-      />   
-    </Card>
-    </a>
-  
-    <div className='tooltip' ref={tooltipRef}><h3>Advice Generator</h3></div>
-    </div>
-    </Grid>
-    
-          
-<Grid item sm={12} md={6} lg={6}>  
-<div className='box'>
-  <a href="https://dulcet-figolla-214440.netlify.app/" target={'_blank'}>
-<Card sx={{ maxWidth: '425px', height:"416px" }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="416"
-        image={require("./img/ecommerce-react-min.jpg")}
-      />   
-    </Card>
-    </a>
-    {/* <div className='tooltip' ref={tooltipRef}><h3>Shopping Card</h3></div> */}
-    </div>
-    </Grid>
-
-
-    <Grid item sm={12} md={6} lg={6} marginBottom="30px">
+   {
+    data.map((port)=>(
+      <Grid item sm={12} md={6} lg={6} > 
       <div className='box'>
-        <a href='https://6329dba83281f94c23cef87e--heartfelt-chimera-526663.netlify.app/' target={'_blank'}>
-    <Card sx={{ maxWidth: '420px', height:"416px" }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="416"
-        image={require("./img/todo.png")}
-      />   
-    </Card>
-    </a>
-    {/* <div className='tooltip' ref={tooltipRef}><h3>Todo App</h3></div> */}
-    </div>
+       <a href={port.path} target={"_blank"}>
+        <Card sx={{ maxWidth: '425px', height:"416px" }}>
+          <CardMedia
+            component="img"
+            height="416"
+            image={require(`./img/${port.img}`)}
+          />   
+        </Card>
+        </a>
+      
+        <div className='tooltip'><h3>{port.name}</h3></div>
+        </div>
+        </Grid>
+    ))
+   } 
     </Grid>
-   
-          
-          <Grid item sm={12} md={6} lg={6}>   
-          <div className=''></div>
-          <a href="http://10.30.1.211:30000/thirdScreen" target={'_blank'}>
-          <Card sx={{ maxWidth: '420px', height:"416px" }}>
-          
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="416"
-        image={require("./img/logo.jpg")}
-      />   
-    </Card>
-    </a>
-    </Grid>
-    
-           
-    </Grid>
-    
     </div>
   )
 }
