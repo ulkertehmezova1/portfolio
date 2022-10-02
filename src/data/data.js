@@ -12,7 +12,7 @@ img:"ecommerce-react-min.jpg",
 name:"Shopping Card"
     },
     {
-        path:"https://6329dba83281f94c23cef87e--heartfelt-chimera-526663.netlify.app/",
+        path:"https://ulkerth.netlify.app/",
         img:"todo.png",
         name:"Todo App"
     },
